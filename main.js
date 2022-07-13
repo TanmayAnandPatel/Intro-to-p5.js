@@ -10,23 +10,8 @@ function setup() {
 }
 
 function draw() {
-image(video,150,80,300,300);
+image(video,0,0,600,450);
 tint(tint_color)
-
-fill("green");
-rect(50,50,500,10);
-rect(50,50,10,350);
-rect(50,400,500,10);
-rect(550,50,10,350);
-fill("red");
-stroke("red");
-circle(50,50,40);
-circle(550,50,40);
-circle(50,400,40);
-circle(550,400,40);
-
-
-
 }
 
 function apply_filter() {
